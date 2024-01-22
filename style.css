@@ -11,4 +11,24 @@
     --maxsize: 1200px; /* feil verdier? */
 }
 
+body {
+    background-color: var(--lightblue);
+    font-family: var(--font);
+    font-size: var(--rootsize);
+    margin-top: 0;
+    padding-top: 0;
+}
 
+.tab
+.tab-container a {
+    text-decoration: none;
+    color: var(--white)
+}
+
+.tab-container:hover {
+   
+}
+
+.tab-container:active {
+    display: block;
+}
