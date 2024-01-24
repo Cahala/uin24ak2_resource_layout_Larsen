@@ -20,9 +20,7 @@ body {
 
 #style {
     margin-top: 2rem;
-    margin-bottom: 0rem;
-
-    
+    margin-bottom: 0rem;    
 }
 #style button.tablinks {
     background-color: var(--grayblue);
@@ -34,27 +32,26 @@ body {
     display: inline-block;
     font-weight: bold;
     cursor: pointer;
-
 }
-
 #style button.tablinks:focus {
     background-color: var(--white);
     color: var(--grayblue);
   } 
   /* KILDE: https://stackoverflow.com/questions/28712267/how-to-change-the-button-color-when-it-is-active-using-bootstrap */
+
+
+  
 #categoryContent{
     background-color: var(--white);
     padding: 2rem;
-  }
+}
 #categoryContent h2 {
     color: var(--grayblue);
     font-size: 1rem;
 }
-
 #categoryContent p {
     font-size: 1rem;
 }
-
 #categoryContent ul li a {
     font-size: 1rem;
 }
