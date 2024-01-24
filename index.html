@@ -7,19 +7,28 @@
     <title>UIN - utvikling av interaktive nettsteder</title>
 </head>
 <body>
-    <ul class="tab-container">
-        <li><a href="#">HTML</a></li>
-        <li><a href="#">CSS</a></li>
-        <li><a href="#">JavaScript</a></li>
-        <li><a href="#">React</a></li>
-        <li><a href="#">Sanity and headless CMS</a></li>
-    </ul>
-
-<main>
-
-</main>
-
+    <div id="style">
+            <button class="tablinks" onclick="showCategoryContent(0)">HTML</button>
+            <button class="tablinks" onclick="showCategoryContent(1)">CSS</button>
+            <button class="tablinks" onclick="showCategoryContent(2)">JavaScript</button>
+            <button class="tablinks" onclick="showCategoryContent(3)">React</button>
+            <button class="tablinks" onclick="showCategoryContent(4)">Sanity and headless CMS</button>
+            <!--KILDE: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tabs-->
+    </div>
+<!--        <span class="buttonIllustration" id="HTML">HTML</span>
+            <span class="buttonIllustration" id="CSS">CSS</span>
+            <span class="buttonIllustration" id="JavaScript">JavaScript</span>
+            <span class="buttonIllustration" id="React">React</span>
+            <span class="buttonIllustration" id="Sanity">Sanity and headless CMS</span> -->
+<!--        <button id="HTML" onClick="showContent()"></button>
+            <button id="CSS" onClick="showContent()"></button>
+            <button id="JavaScript" onClick="showContent()"></button>
+            <button id="React"onClick="showContent()"></button>
+            <button id="Sanity" onClick="showContent()"></button> -->
+        <main id="categoryContent">
+        </main>
+    
     <script src="ressurser.js"></script>
-    <script src ="faner.js"></script>
+    <script src ="script.js"></script>
 </body>
 </html>
