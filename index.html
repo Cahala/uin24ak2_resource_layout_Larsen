@@ -7,18 +7,20 @@
     <title>Utvikling av interaktive nettsteder - arbeidskrav 2</title>
 </head>
 <body>
-    <div id="style">
-            <button class="tablinks" onclick="showCategoryContent(0)">HTML</button>
-            <button class="tablinks" onclick="showCategoryContent(1)">CSS</button>
-            <button class="tablinks" onclick="showCategoryContent(2)">JavaScript</button>
-            <button class="tablinks" onclick="showCategoryContent(3)">React</button>
-            <button class="tablinks" onclick="showCategoryContent(4)">Sanity and headless CMS</button>
-            <!--KILDE: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tabs 
-                og medstudent Christian Kent Djønne Albinsson-->
-    </div>
+    <div id="content">
+        <nav id="style">
+                <button class="tablinks active" onclick="showCategoryContent(0)">HTML</button>
+                <button class="tablinks" onclick="showCategoryContent(1)">CSS</button>
+                <button class="tablinks" onclick="showCategoryContent(2)">JavaScript</button>
+                <button class="tablinks" onclick="showCategoryContent(3)">React</button>
+                <button class="tablinks" onclick="showCategoryContent(4)">Sanity and headless CMS</button>
+                <!--KILDE: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tabs 
+                    og medstudent Christian Kent Djønne Albinsson-->
+        </nav>
+  
         <main id="categoryContent">
         </main>
-    
+    </div>
     <script src="ressurser.js"></script>
     <script src ="script.js"></script>
 </body>

@@ -12,42 +12,70 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     background-color: var(--lightgray);
-    font-family: var(--font);
     margin-top: 0;
     padding-top: 0;
 }
 
+#content {
+    width: 100%;
+    max-width: 1100px;
+}
 #style {
     margin-top: 2rem;
-    margin-bottom: 0rem;    
+    margin-bottom: 0rem;
+    width: 100%;
+   
 }
-#style button.tablinks {
+#style {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+
+}
+button {
     background-color: var(--grayblue);
     color: var(--white);
     border: none;
-    padding: 1rem 2rem;
+    padding: 1rem 4.5rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-family: var(--font);
     font-weight: bold;
     cursor: pointer;
 }
-#style button.tablinks:focus {
+
+  /* Jeg hadde låst at knappen ble hvit med denne kodingen, men studentass. rådet meg til å gjøre det mer 
+  dynamisk med javascript derav .active kodeingen nedenfor
+  #style button.tablinks:focus {
     background-color: var(--white);
     color: var(--grayblue);
-  } 
-  /* KILDE: https://stackoverflow.com/questions/28712267/how-to-change-the-button-color-when-it-is-active-using-bootstrap */
+  } KILDE: https://stackoverflow.com/questions/28712267/how-to-change-the-button-color-when-it-is-active-using-bootstrap*/
 
-
-  
-#categoryContent{
+  .active {
     background-color: var(--white);
-    padding: 2rem;
+    color: var(--grayblue);
+  } /*KILDE: studentass. Ivar Kvalheim  */
+  
+#categoryContent {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    font-family: var(--font);
+    padding: 4rem;
 }
+
 #categoryContent h2 {
     color: var(--grayblue);
     font-size: 1rem;
+
 }
 #categoryContent p {
     font-size: 1rem;
