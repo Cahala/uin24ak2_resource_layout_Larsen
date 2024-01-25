@@ -15,7 +15,7 @@ resources.forEach(resource => {resourcesHTML +=
     </article>`
 })//KILDE: ChatGPT og forelesning med "legodudes". 
 
-//Jeg laget den først med .map. men fikk da bare til å skrive ut et listeelement. 
+//Jeg laget den først, men fikk da bare til å skrive ut et listeelement. 
 //Endret til for.Each (koden ovenfor) for å ta ut hver og en
 /* resources.map(resources => resourcesHTML = 
   `<article>
